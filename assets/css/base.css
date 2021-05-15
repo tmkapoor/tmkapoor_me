@@ -158,7 +158,6 @@ a.cta--large:focus {
     height: 240px;
     display: inline-block;
     border-radius: 50%;
-    background-image: url(/assets/images/me.png);
     background-size: cover;
     background-position: center;
  }
