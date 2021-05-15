@@ -1,0 +1,16 @@
+---
+layout: base
+title: "My Work"
+---
+
+<div class="body-constraint--small">
+    
+        {% for post in site.posts %}
+            <div class="text-constraint--small">
+                <a href="{{ post.url }}" class="spacer--smaller"><span class="title-font--secondary">{{ post.title }}</span></a>
+                <p class="body-font--default">{{ post.subtitle }}</p>
+                <hr>
+            </div>
+        {% endfor %}
+    
+</div>
