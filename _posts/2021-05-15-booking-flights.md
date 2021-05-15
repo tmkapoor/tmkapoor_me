@@ -5,7 +5,7 @@ subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu po
 date:   2021-05-15 13:05:00 +0200
 categories: work project
 urlslug: "booking-flights"
-permalink: /:slugified_categories/:slug:output_ext
+permalink: /:categories/:slug:output_ext
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. 
 
