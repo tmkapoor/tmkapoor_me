@@ -8,7 +8,7 @@ title: "Home"
 <div class="body-constraint--small">
     <div class="container-fluid ">
         <div class="player-holder spacer--large ">
-            <div class="player-thumb" style="background-image: url({{ site.baseurl }}/assets/images/me.png);"></div>
+            <div class="player-thumb" style="background-image: url({{ "/assets/images/me.png" | relative_url }});"></div>
         </div>
         
         <div class="accent-bg-fill spacer--small" style="width: 128px; height: 24px;"></div>
@@ -27,13 +27,13 @@ title: "Home"
     <div class="container-fluid spacer--medium">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <a href="{{ site.baseurl }}/work" class="cta--large">My work</a>
+              <a href="{{ "/work.html" | relative_url }}" class="cta--large">My work</a>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <a href="{{ site.baseurl }}/resume" class="cta--large">My resume</a>
+              <a href="{{ "/resume.html" | relative_url }}" class="cta--large">My resume</a>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <a href="{{ site.baseurl }}/contact" class="cta--large">Contact me</a>
+              <a href="{{ "/contact.html" | relative_url }}" class="cta--large">Contact me</a>
             </div>
         </div>
     </div>
