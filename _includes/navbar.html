@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid body-constraint--small">
+      <a class="navbar-brand" href="{{ "/" | relative_url }}">Tanay Kapoor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+        <ul class="navbar-nav me-right mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link {% if page.title == "Home" %}active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.title == "Work" %}active{% endif %}" href="{{ "/work.html" | relative_url }}">My work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.title == "Resume" %}active{% endif %}" href="{{ "/resume.html" | relative_url }}">My resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.title == "Contact" %}active{% endif %}" href="{{ "/contact.html" | relative_url }}">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
