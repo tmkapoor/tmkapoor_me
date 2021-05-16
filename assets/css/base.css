@@ -128,6 +128,17 @@ a.cta--large{
     padding: 8px 24px 8px 0px;
 }
 
+/* Navbar overrides */
+nav.navbar{
+    background-color: white;
+    border-top: solid 8px #DEF2F1;
+}
+
+nav.navbar > div{
+    padding-bottom: 8px; 
+    border-bottom: solid 1px #EDEDED;
+}
+
 a.cta--large:hover,
 a.cta--large:focus{
     border-bottom: solid 2px #3AAFA9;
