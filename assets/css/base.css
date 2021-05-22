@@ -27,6 +27,10 @@ nav.navabr > div.container-fluid{
     max-width: 960px;
 }
 
+.text-constraint--medium{
+    max-width: 800px;
+}
+
 .text-constraint--small{
     max-width: 640px;
 }

@@ -7,7 +7,7 @@ title: "Work"
     
         {% for post in site.posts %}
             <div class="text-constraint--small">
-                <a href="{{ post.url }}" class="spacer--smaller"><span class="title-font--secondary">{{ post.title }}</span></a>
+                <a href="{{ post.url | relative_url }}" class="spacer--smaller"><span class="title-font--secondary">{{ post.title }}</span></a>
                 <p class="body-font--default">{{ post.subtitle }}</p>
                 <hr>
             </div>

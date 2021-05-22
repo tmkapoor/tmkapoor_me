@@ -1,32 +1,41 @@
 ---
-layout: post
+layout: base
 title:  "Booking.com flights landing pages"
 subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu porttitor velit. Donec iaculis ac nisl non sollicitudin. Maecenas rutrum interdum pretium. Vivamus sagittis nisi id ante faucibus, ut volutpat sapien pellentesque. Mauris sit amet sollicitudin massa. Suspendisse gravida sollicitudin justo, sit amet porttitor ante lobortis et. Pellentesque facilisis purus non lacus interdum, quis maximus nisi pellentesque. Vestibulum sit amet arcu cursus, tempus leo vitae, congue lectus."
 date:   2021-05-15 13:05:00 +0200
 categories: work project
 urlslug: "booking-flights"
 permalink: /:categories/:slug:output_ext
+noindex: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. 
+<div class="continaer-fluid body-constraint--small" >
+  <p class="text-constraint--medium">
+  You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. 
+  <p>
 
-Jekyll requires blog post files to be named according to the following format:
+  <p class="text-constraint--medium">
+  Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+  `YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+  Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+  Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+  {% highlight ruby %}
+  def print_hi(name)
+    puts "Hi, #{name}"
+  end
+  print_hi('Tom')
+  #=> prints 'Hi, Tom' to STDOUT.
+  {% endhighlight %}
+  </p>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+  <p class="text-constraint--medium">
+  Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+  [jekyll-docs]: https://jekyllrb.com/docs/home
+  [jekyll-gh]:   https://github.com/jekyll/jekyll
+  [jekyll-talk]: https://talk.jekyllrb.com/
+  </p>
+</div>
