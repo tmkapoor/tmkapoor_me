@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
       isMobile = true;
      }
 
+    // Image lazy loader
     var lazyloadImages;     
     if ("IntersectionObserver" in window) {
       lazyloadImages = document.querySelectorAll(".lazy");
@@ -51,5 +52,17 @@ document.addEventListener("DOMContentLoaded", function() {
       document.addEventListener("scroll", lazyload);
       window.addEventListener("resize", lazyload);
       window.addEventListener("orientationChange", lazyload);
+    }
+
+    //Scroll behaviour
+    var $scrollItems = $(".scroll-on-click");
+    if($scrollItems){
+      $scrollItems.each(function(index){
+        $(this).click(function(){
+          $('html, body').animate({
+            scrollTop: $(this).offset().top - 64
+        }, 250);
+        });
+      });
     }
   })
