@@ -9,33 +9,41 @@ permalink: /:categories/:slug:output_ext
 noindex: true
 ---
 <div class="continaer-fluid body-constraint--small" >
-  <p class="text-constraint--medium">
-  You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. 
+  <p class="text-constraint--medium font-body--body">
+  Booking.com has in the last 2 years started investing in new vacation related products. The most significant of them being Flights.Being the design lead I was tasked with defining strategy and design on how to market our flights product. This project entailed not only defining the design but also product strategy and road map.
   <p>
 
-  <p class="text-constraint--medium">
-  Jekyll requires blog post files to be named according to the following format:
+  <p class="text-constraint--medium font-title--secondary">Understanding user search patterns</p>
 
-  `YEAR-MONTH-DAY-title.MARKUP`
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
+       <img class="lazy" data-src="{{ "/assets/images/work/flight-serp.png" | relative_url }}" />
+      </div>
+      <div class="col-md-6">
+        <img class="lazy" data-src="{{ "/assets/images/work/trends.png" | relative_url }}" />
+      </div>
+    </div>
+  </div>
 
-  Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-  Jekyll also offers powerful support for code snippets:
-
-  {% highlight ruby %}
-  def print_hi(name)
-    puts "Hi, #{name}"
-  end
-  print_hi('Tom')
-  #=> prints 'Hi, Tom' to STDOUT.
-  {% endhighlight %}
+  <p class="text-constraint--medium font-body--body">
+  Since our primary purpose was to market our new product through PPC and SEO, I began with an analysis of the search demand and patterns. Although trends make it seem that “flight to” and “flights from” pages have the highest demand, on father investigation I found Google is almost always able to calculate the users location. Therefore, making the need from flight route pages the highest.
   </p>
 
-  <p class="text-constraint--medium">
-  Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-  [jekyll-docs]: https://jekyllrb.com/docs/home
-  [jekyll-gh]:   https://github.com/jekyll/jekyll
-  [jekyll-talk]: https://talk.jekyllrb.com/
-  </p>
+  <p class="text-constraint--medium font-body--body">Market and user research</p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <p class="text-constraint--medium font-body--body"></p>
+
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9NNr4sCDqkWpTfryQuDCjJ%2FPortfolio-updated-02-2021-Copy%3Fnode-id%3D3%253A4364%26viewport%3D4438%252C-1939%252C0.30980250239372253%26scaling%3Dcontain%26page-id%3D3%253A4014" allowfullscreen></iframe>
 </div>

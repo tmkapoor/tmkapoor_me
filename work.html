@@ -1,16 +1,25 @@
 ---
 layout: base
-title: "Work"
+title: "Portfolio"
 ---
+<div class="d-block d-md-none text-center">
+    <a class="cta-button" href="https://www.figma.com/proto/9NNr4sCDqkWpTfryQuDCjJ/Portfolio-updated-03-2021?node-id=3%3A4364&viewport=2658%2C-967%2C0.18029248714447021&scaling=contain&page-id=3%3A4014" target="_blank">
+        {% include social-icons/figma-logo.html %}
+        <span class="text">View portfolio on Figma</span>
+      </a>
+</div>
 
-<div class="body-constraint--small">
+<div class="body-constraint--small d-none d-md-block">
+
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9NNr4sCDqkWpTfryQuDCjJ%2FPortfolio-updated-02-2021-Copy%3Fnode-id%3D3%253A4364%26viewport%3D4438%252C-1939%252C0.30980250239372253%26scaling%3Dcontain%26page-id%3D3%253A4014" allowfullscreen></iframe>
     
+        <!--
         {% for post in site.posts %}
             <div class="text-constraint--small">
-                <a href="{{ post.url | relative_url }}" class="spacer--smaller"><span class="title-font--secondary">{{ post.title }}</span></a>
+                <a href="{{ post.url | relative_url }}" class="spacer--smaller"><span class="font-title--tertiary cta--large">{{ post.title }}</span></a>
                 <p class="body-font--default">{{ post.subtitle }}</p>
                 <hr>
             </div>
         {% endfor %}
-    
+        -->
 </div>

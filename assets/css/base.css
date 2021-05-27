@@ -5,7 +5,7 @@ body{
     font-weight: 400;
     line-height: 22px;
     text-align: left;
-    color: #17252A;
+    color: rgb(68,68,68);
 }
 
 /* Navbar styling */
@@ -70,7 +70,16 @@ nav.navabr > div.container-fluid{
 .spacer--smallest{
     display: block;
     margin-bottom: 4px;
+
 }
+
+/* Indentations */
+
+.indent--default{
+    display: block;
+    margin-left: 24px;
+}
+
 
 /* Text utilities */
 
@@ -110,25 +119,41 @@ nav.navabr > div.container-fluid{
     line-height: 22px;
 }
 
+.font-body--large{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .font-body--default{
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
 }
 
-.font-body--small{
+.font-body--footnote{
     font-size: 10px;
     font-weight: 400;
     line-height: 16px;
 }
 
-a.cta--large{
+.font-color--gray{
+    color: rgb(145,145,145);
+}
+
+strong{
+    font-weight: 500;
+    background-color: #DEF2F1;
+}
+
+.cta--large{
     display: inline-block;
-    color: #17252A;
+    color: rgb(68,68,68);
     font-size: 21px;
     line-height: 30px;
     font-weight: 500 !important;
     text-decoration: none !important;
+    border-bottom: solid 2px white;
     padding: 8px 24px 8px 0px;
 }
 
@@ -143,12 +168,12 @@ nav.navbar > div{
     border-bottom: solid 1px #EDEDED;
 }
 
-a.cta--large:hover,
-a.cta--large:focus{
+.cta--large:hover,
+.cta--large:focus{
     border-bottom: solid 2px #3AAFA9;
 }
 
-a.cta--large::before{
+.cta--large::before{
     content: ">";
     font-size: 18px;
     line-height: 24px;
@@ -162,32 +187,36 @@ a.cta--large:focus {
   box-shadow: inset 6.5em 0 0 0 var(--hover);
 }
 
-a.contact-button{
+a.cta-button{
     display: inline-block;
     padding: 12px 24px;
-    color: #17252A;
+    color: rgb(68,68,68);
     border: solid 2px #3AAFA9;
     border-radius: 32px;
     text-decoration: none;
-    width: 164px;
+    
     animation: background-color  0.5s linear;
 }
 
-a.contact-button > .text{
+a.cta-button > .text{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
-a.contact-button > .logo,
-a.contact-button > svg{
+a.cta-button > .logo,
+a.cta-button > svg{
     width: 24px;
     margin: auto;
     padding: 0px 4px 4px 4px;
 }
 
-a.contact-button:hover{
+a.cta-button:hover{
     background-color: #3AAFA9;
+}
+
+.cta-button.contact-button{
+    width: 164px;
 }
 
 .accent-bg-fill{

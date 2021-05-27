@@ -3,11 +3,51 @@ layout: base
 title: "Resume"
 ---
 
-<div class="body-constraint--small">
+<div class="fluid-container body-constraint--small">
+
+    <p class="font-body--large spacer--large text-constraint--medium">
+        I have been working in <strong>tech since 2011</strong> and currently, I work with <strong>Booking.com as a Team lead and UX designer</strong> for the Organic Marketing department. I lead both web and app teams to create engaging landing experiences for users coming to Booking.com through our performance marketing channels. Aside from the <strong>design strategy</strong> for my teams, I am in charge of the team's Agile design and product processes. In my role as a team lead I also look after <strong>performance management as well as career progression</strong> for my reportees.
+    </p>
 
 
-    <h1> This is the resume page</h1>
+    <div class="font-body--default spacer--large">
+        <p class="font-title--tertiary">My current job</p>
+        <div class="indent--default">
+            <div class="font-body--emphasized">Team Lead and UX designer</div>
+            <div class="">Booking.com</div>
+            <div class="font-color--gray">Nov 2017 - present</div>  
+        </div>
+    </div>
 
-    <iframe src="https://drive.google.com/file/d/1Np1Bgqsh-yX2SkUDN5BRw-LOVtEUFsRq/preview" width="100%" height="1200px" frameborder="0" scrolling="no"></iframe>
+    <div class="font-body--default spacer--large">
+        <p class="font-title--tertiary">My education</p>
+        <div class="indent--default spacer--medium">
+            <div class="font-body--emphasized">MSc Human-Computer Interaction with Ergonomics</div>
+            <div class="">University College London</div>
+            <div class="font-color--gray">2014-2015</div>  
+        </div>
 
+        <div class="indent--default">
+            <div class="font-body--emphasized">Bachelores of Engineering in Computers</div>
+            <div class="">Thapar Institute of Engineering</div>
+            <div class="font-color--gray">2007-2011</div>  
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                My complete resume
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <iframe src="{{ "/assets/fileshare/Tanay-Kapoor--Resume.pdf" | relative_url }}" width="100%" height="1200px" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
 </div>
