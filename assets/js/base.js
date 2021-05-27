@@ -65,4 +65,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
       });
     }
+
+    //iframe height setting
+    var $scrollItems = $(".auto-set-height");
+    if($scrollItems){
+      $scrollItems.each(function(index){
+        var heightParam = (isMobile)?("mobile-height"):("desktop-height");
+        if($(this).data(heightParam)){
+          $(this).height($(this).data(heightParam));
+        }
+      });
+    }
   })
